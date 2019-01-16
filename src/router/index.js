@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
+const SolarSystem = resolve => require(['@/views/SolarSystem'], resolve)
 const Moon = resolve => require(['@/views/Moon'], resolve)
 const Help = resolve => require(['@/views/Help'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
@@ -13,6 +14,10 @@ let routes = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/solar_system',
+        component: SolarSystem
     },
     {
         path: '/moon',
