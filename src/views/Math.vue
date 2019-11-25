@@ -19,6 +19,8 @@
 
 <script>
     /* eslint-disable */
+    // https://nsytsqdtn.github.io/demo/vertices/vertices
+    
     window.requestAnimFrame = (function(){
       return  window.requestAnimationFrame       ||
               window.webkitRequestAnimationFrame ||
