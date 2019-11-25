@@ -43,7 +43,7 @@
     export default {
         data () {
             return {
-                rotate: true,
+                rotate: false,
                 settingVisible: false,
                 page: {
                     menu: [
@@ -83,7 +83,7 @@
                 webGLRenderer.setSize(rect.width, rect.height)
                 webGLRenderer.shadowMapEnabled = true
 
-                // var sphere = 
+                // var sphere =
                 createMesh(new THREE.SphereGeometry(40, 160, 160));
                 // add the sphere to the scene
                 //scene.add(sphere);
@@ -98,7 +98,7 @@
                 let ambi = new THREE.AmbientLight(0x686868); //环境光
                 scene.add(ambi);
                 let spotLight = new THREE.DirectionalLight(0xffffff);  //点光源
-                spotLight.position.set(550, 100, 550);  
+                spotLight.position.set(550, 100, 550);
                 spotLight.intensity = 1;
                 scene.add(spotLight);
 
@@ -170,6 +170,8 @@
                 orbit.minDistance = 50;
                 orbit.maxDistance = 1000;
                 // orbit.enableZoom = false;
+                orbit.enablePan = true
+	              orbit.keyPanSpeed = 7.0
             }
         }
     }

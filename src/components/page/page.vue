@@ -11,10 +11,25 @@
                 <ui-list-item title="太阳系" to="/solar_system">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
+                <ui-list-item title="数学演示" to="/math">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
                 <!--
                      <ui-list-item title="地球月球" to="/moon">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item> -->
+                <ui-list-item title="正方体" to="/cube">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="球体" to="/ball">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="我的世界（测试）" to="/world">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="Obj（测试）" to="/obj">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
                 <ui-list-item title="关于" to="/about">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
